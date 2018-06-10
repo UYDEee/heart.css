@@ -13,6 +13,8 @@
     height: 50px;
     width: 50px;
     transform: rotate(-45deg);
+    animation-name: heart;
+    animation-duration: 5s;
   }
 
   .heart:before {
@@ -34,6 +36,11 @@
     height: 50px;
     top: 0px;
     left: 25px;
+  }
+  
+  @keysframes heart{
+    0%{background-color:pink;}
+    100%{background-color:red;}
   }
   </style>
  </head>
